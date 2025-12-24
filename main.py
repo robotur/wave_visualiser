@@ -9,7 +9,7 @@ class PianoGUI:
         self.root = root
         self.root.title("Piano Wave Visualizer")
         self.root.geometry("1000x600")
-        
+        #musti ozdil
         self.fs = 44100
         self.duration = 0.05
         self.t = np.linspace(0, self.duration, int(self.fs * self.duration))
